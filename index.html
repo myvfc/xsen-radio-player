@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>XSEN Live Radio</title>
+
+  <style>
+    body {
+      background: #111;
+      margin: 0;
+      padding: 20px;
+      font-family: system-ui, sans-serif;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      max-width: 500px;
+      width: 100%;
+      background: #1c1c1c;
+      padding: 24px;
+      border-radius: 14px;
+      margin-top: 40px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.45);
+    }
+    h1 {
+      margin-bottom: 12px;
+      font-size: 28px;
+      letter-spacing: 0.5px;
+    }
+    p {
+      opacity: 0.85;
+      font-size: 14px;
+      margin-bottom: 18px;
+    }
+    audio {
+      width: 100%;
+      border-radius: 12px;
+      outline: none;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>🎙️ XSEN Live Radio</h1>
+  <p>Powered by XSEN — The eXperience Sports & Entertainment Network</p>
+
+  <div class="container">
+    <audio controls preload="none">
+      <!-- Replace with correct stream URL once confirmed -->
+      <source src="https://a12.asurahosting.com:7305/" type="audio/mpeg">
+    </audio>
+
+    <p style="margin-top:10px;">
+      If the stream is offline, check back soon — broadcasts happen live during events.
+    </p>
+  </div>
+
+  <p style="margin-top:40px; font-size:12px; opacity:0.65;">v1.0 • XSEN Radio Player</p>
+
+</body>
+</html>
